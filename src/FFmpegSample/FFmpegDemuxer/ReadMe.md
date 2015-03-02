@@ -10,8 +10,8 @@
 
 #更新日志
 2015/3/2
-1. 使用一个c++命令行输入参数解析类：zcs_ParsingArgs.cpp 
-2. 使用c++字符集转换类：util.cpp
-3. 解析main中传入的参数，并保存到全局的变量里
+1. 使用一个c++命令行输入参数解析类：zcs_ParsingArgs.cpp <br>
+2. 使用c++字符集转换类：util.cpp<br>
+3. 解析main中传入的参数，并保存到全局的变量里<br>
 
             
