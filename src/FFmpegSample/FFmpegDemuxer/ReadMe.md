@@ -2,39 +2,16 @@
     CONSOLE APPLICATION : FFmpegDemuxer Project Overview
 ========================================================================
 
-AppWizard has created this FFmpegDemuxer application for you.
+###　　　　　　　　　　　　视频分离工程
 
-This file contains a summary of what you will find in each of the files that
-make up your FFmpegDemuxer application.
+#程序使用
+    FFmpegDemuxer.exe -i 待拆分视频 -v 拆分视频 -a 拆分音频
+#程序要点
 
+#更新日志
+2015/3/2
+1. 使用一个c++命令行输入参数解析类：zcs_ParsingArgs.cpp 
+2. 使用c++字符集转换类：util.cpp
+3. 解析main中传入的参数，并保存到全局的变量里
 
-FFmpegDemuxer.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-FFmpegDemuxer.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-FFmpegDemuxer.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named FFmpegDemuxer.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+            
