@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegDemuxer", "FFmpegDemuxer\FFmpegDemuxer.vcxproj", "{B620E5C3-737D-41F5-AC5C-336C8BF90C26}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegCODEC", "FFmpegCODEC\FFmpegCODEC.vcxproj", "{DC437E7F-FC7C-4021-B7D0-AB7AC485A9FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{B620E5C3-737D-41F5-AC5C-336C8BF90C26}.Debug|Win32.Build.0 = Debug|Win32
 		{B620E5C3-737D-41F5-AC5C-336C8BF90C26}.Release|Win32.ActiveCfg = Release|Win32
 		{B620E5C3-737D-41F5-AC5C-336C8BF90C26}.Release|Win32.Build.0 = Release|Win32
+		{DC437E7F-FC7C-4021-B7D0-AB7AC485A9FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC437E7F-FC7C-4021-B7D0-AB7AC485A9FB}.Debug|Win32.Build.0 = Debug|Win32
+		{DC437E7F-FC7C-4021-B7D0-AB7AC485A9FB}.Release|Win32.ActiveCfg = Release|Win32
+		{DC437E7F-FC7C-4021-B7D0-AB7AC485A9FB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
