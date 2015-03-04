@@ -6,5 +6,5 @@
 1. 添加了FFmpegDemuxer工程，工程作用是将音频和视频分离<br>
 
 2015/3/3<br>
-1. 添加了FFmpegCODEC工程，工程作用是进行ffmpeg的转码操作
+1. 添加了FFmpegCODEC工程，工程作用是进行ffmpeg的转码操作<br>
 

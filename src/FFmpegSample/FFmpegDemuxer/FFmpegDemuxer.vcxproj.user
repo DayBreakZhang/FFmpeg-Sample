@@ -3,7 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerEnvironment>PATH=..\..\..\dll%3b$(PATH)</LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>-i ..\\..\\..\\source\\FFmpegDemuxer\\2.mp4 -v 3.mp4 -a 3.wav</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-i ..\\..\\..\\source\\FFmpegDemuxer\\2.mp4 -v 3.mp4 -a 3.mp3</LocalDebuggerCommandArguments>
     <LocalDebuggerWorkingDirectory>$(SolutionDir)..\..\bin\$(Configuration)\FFmpegDemuxer\</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 </Project>

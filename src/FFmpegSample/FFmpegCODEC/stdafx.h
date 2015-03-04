@@ -29,7 +29,15 @@ using namespace std;
 //Windows
 extern "C"
 {
+#include "libavcodec/avcodec.h"
 #include "libavformat/avformat.h"
+#include "libavfilter/avfiltergraph.h"
+#include "libavfilter/avcodec.h"
+#include "libavfilter/buffersink.h"
+#include "libavfilter/buffersrc.h"
+#include "libavutil/avutil.h"
+#include "libavutil/opt.h"
+#include "libavutil/pixdesc.h"
 };
 #else
 //Linux...
