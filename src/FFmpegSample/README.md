@@ -8,3 +8,5 @@
 2015/3/3<br>
 1. 添加了FFmpegCODEC工程，工程作用是进行ffmpeg的转码操作<br>
 
+2015/3/4<br>
+1. 添加了FFmpegAudioConver工程，工程作用是进行音频进行重新采样
