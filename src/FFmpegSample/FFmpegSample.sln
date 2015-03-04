@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegDemuxer", "FFmpegDemu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegCODEC", "FFmpegCODEC\FFmpegCODEC.vcxproj", "{DC437E7F-FC7C-4021-B7D0-AB7AC485A9FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegAudioConver", "FFmpegAudioConver\FFmpegAudioConver.vcxproj", "{F811C6EE-2472-4AAC-9D0F-EA56DBBD2A8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{DC437E7F-FC7C-4021-B7D0-AB7AC485A9FB}.Debug|Win32.Build.0 = Debug|Win32
 		{DC437E7F-FC7C-4021-B7D0-AB7AC485A9FB}.Release|Win32.ActiveCfg = Release|Win32
 		{DC437E7F-FC7C-4021-B7D0-AB7AC485A9FB}.Release|Win32.Build.0 = Release|Win32
+		{F811C6EE-2472-4AAC-9D0F-EA56DBBD2A8D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F811C6EE-2472-4AAC-9D0F-EA56DBBD2A8D}.Debug|Win32.Build.0 = Debug|Win32
+		{F811C6EE-2472-4AAC-9D0F-EA56DBBD2A8D}.Release|Win32.ActiveCfg = Release|Win32
+		{F811C6EE-2472-4AAC-9D0F-EA56DBBD2A8D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
