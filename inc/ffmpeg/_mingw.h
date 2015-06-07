@@ -282,7 +282,7 @@ allow GCC to optimize away some EH unwind code, at least in DW2 case.  */
 #  define __USE_MINGW_ANSI_STDIO    (__MINGW_FEATURES__ & __MINGW_ANSI_STDIO__)
 # endif
 #endif
-//解决inttypes.h有问题的错误
+
 #define __restrict__
 
 #endif /* __MINGW_H */

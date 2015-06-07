@@ -1,0 +1,38 @@
+﻿Build started 2015/5/10 9:07:35.
+     1>Project "E:\source\zcs\myVideoAudioProcessing\src\VideoAudio\testResamplingAudio\testResamplingAudio.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\source\zcs\myVideoAudioProcessing\src\VideoAudio\..\..\bin\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\testResamplingAudio.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\testResamplingAudio.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\testResamplingAudio.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt testResamplingAudio.cpp
+         testResamplingAudio.cpp
+     1>e:\source\zcs\myvideoaudioprocessing\src\videoaudio\testresamplingaudio\testresamplingaudio.cpp(135): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\source\zcs\myvideoaudioprocessing\src\videoaudio\testresamplingaudio\testresamplingaudio.cpp(180): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data
+     1>e:\source\zcs\myvideoaudioprocessing\src\videoaudio\testresamplingaudio\testresamplingaudio.cpp(200): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data
+     1>e:\source\zcs\myvideoaudioprocessing\src\videoaudio\testresamplingaudio\testresamplingaudio.cpp(109): warning C4101: 'src_file' : unreferenced local variable
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\testResamplingAudio.exe.embed.manifest.res" Debug\testResamplingAudio_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\source\zcs\myVideoAudioProcessing\src\VideoAudio\..\..\bin\Debug\testResamplingAudio.exe" /INCREMENTAL /NOLOGO avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\testResamplingAudio.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\source\zcs\myVideoAudioProcessing\bin\Debug\testResamplingAudio.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\source\zcs\myVideoAudioProcessing\src\VideoAudio\..\..\bin\Debug\testResamplingAudio.lib" /MACHINE:X86 Debug\testResamplingAudio.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\testResamplingAudio.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\testResamplingAudio.exe.embed.manifest" /manifest Debug\testResamplingAudio.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\testResamplingAudio.exe.embed.manifest.res" Debug\testResamplingAudio_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\source\zcs\myVideoAudioProcessing\src\VideoAudio\..\..\bin\Debug\testResamplingAudio.exe" /INCREMENTAL /NOLOGO avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\testResamplingAudio.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\source\zcs\myVideoAudioProcessing\bin\Debug\testResamplingAudio.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\source\zcs\myVideoAudioProcessing\src\VideoAudio\..\..\bin\Debug\testResamplingAudio.lib" /MACHINE:X86 Debug\testResamplingAudio.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\testResamplingAudio.obj
+         testResamplingAudio.vcxproj -> E:\source\zcs\myVideoAudioProcessing\src\VideoAudio\..\..\bin\Debug\testResamplingAudio.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\testResamplingAudio.unsuccessfulbuild".
+         Touching "Debug\testResamplingAudio.lastbuildstate".
+     1>Done Building Project "E:\source\zcs\myVideoAudioProcessing\src\VideoAudio\testResamplingAudio\testResamplingAudio.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.10

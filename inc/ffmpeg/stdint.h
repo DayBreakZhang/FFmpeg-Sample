@@ -23,10 +23,6 @@
 #define __need_wchar_t
 #include <stddef.h>
 
-//FIX----------
-#define __STDC_CONSTANT_MACROS
-//-------------
-
 /* 7.18.1.1  Exact-width integer types */
 typedef signed char int8_t;
 typedef unsigned char   uint8_t;
@@ -204,7 +200,6 @@ typedef unsigned long long uintmax_t;
 /* 7.18.4.2  Macros for greatest-width integer constants */
 #define INTMAX_C(val)  INT64_C(val)
 #define UINTMAX_C(val) UINT64_C(val)
-
 
 #endif  /* !defined ( __cplusplus) || defined __STDC_CONSTANT_MACROS */
 
