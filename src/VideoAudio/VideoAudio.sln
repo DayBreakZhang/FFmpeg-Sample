@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testAudioDemuxer", "testAud
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testTranscoder1", "testTranscoder1\testTranscoder1.vcxproj", "{FB548365-10B1-48C5-BC9E-56605CDD75C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testAudioTranscoder", "testAudioTranscoder\testAudioTranscoder.vcxproj", "{36A74BF9-42C8-4456-82AF-7E7654DC666B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -37,6 +39,10 @@ Global
 		{FB548365-10B1-48C5-BC9E-56605CDD75C5}.Debug|Win32.Build.0 = Debug|Win32
 		{FB548365-10B1-48C5-BC9E-56605CDD75C5}.Release|Win32.ActiveCfg = Release|Win32
 		{FB548365-10B1-48C5-BC9E-56605CDD75C5}.Release|Win32.Build.0 = Release|Win32
+		{36A74BF9-42C8-4456-82AF-7E7654DC666B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36A74BF9-42C8-4456-82AF-7E7654DC666B}.Debug|Win32.Build.0 = Debug|Win32
+		{36A74BF9-42C8-4456-82AF-7E7654DC666B}.Release|Win32.ActiveCfg = Release|Win32
+		{36A74BF9-42C8-4456-82AF-7E7654DC666B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
