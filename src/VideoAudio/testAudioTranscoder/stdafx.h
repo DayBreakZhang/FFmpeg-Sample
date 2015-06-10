@@ -12,19 +12,29 @@
 #include <stdio.h>
 #include <tchar.h>
 #include <iostream>
+#include <string.h>
+#include <math.h>
+#include <stdint.h>
 using namespace std;
 
 extern "C"
 {
-#include "libavcodec/avcodec.h"
-#include "libavformat/avformat.h"
-#include "libavfilter/avfiltergraph.h"
-#include "libavfilter/avcodec.h"
-#include "libavfilter/buffersink.h"
-#include "libavfilter/buffersrc.h"
-#include "libavutil/avutil.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include  	<libavutil/avutil.h>
+#include  	<libavutil/attributes.h>
+#include    <libavutil/opt.h>
+#include    <libavutil/mathematics.h>
+#include    <libavutil/imgutils.h>
+#include    <libavutil/samplefmt.h>
+#include    <libavformat/avformat.h>
+#include    <libavcodec/avcodec.h>
+#include    <libswscale/swscale.h>
+#include    <libavutil/mathematics.h>
+#include    <libswresample/swresample.h>
+#include    <libavutil/channel_layout.h>
+#include    <libavutil/common.h>
+#include    <libavformat/avio.h>
+#include    <libavutil/file.h>
+#include    <libswresample/swresample.h>
 };
 
 
