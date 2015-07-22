@@ -1,8 +1,5 @@
-// testAudioTranscoder.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
-FILE *fin, *fout;
+#include "StdAfx.h"
+#include "ATranScoderInter.h"
 
 #define SWR_CH_MAX 1024
 
@@ -91,6 +88,8 @@ int write_wav_header(unsigned char header[], WavHeader *wavHeader) {
 }
 int ffmpeg_audio_decode(const char * inFile, const char * outFile,
 	int channel_num, int bit_rate, int sample_rate) {
+
+		FILE *fout;
 
 		av_register_all();
 
@@ -255,12 +254,7 @@ int ffmpeg_audio_decode(const char * inFile, const char * outFile,
 }
 
 
-
-int main() {
-	char *inFile = "E:\\mp4\\20150716.wmv";
-	char *outFile = "E:\\mp4\\20150716.wav";
-	fprintf(stderr, "res:%d/n",
-		ffmpeg_audio_decode(inFile, outFile, 1, 16, 16000));
-	return 0;
+extern "C" DLL_EXPORT int AudioTranscoderEx2(IN char* insrc, IN char *outsrc,IN int channel_num, IN int bit_rate,IN int sample_rate)
+{
+	return ffmpeg_audio_decode(insrc, outsrc, channel_num, bit_rate, sample_rate);
 }
-
