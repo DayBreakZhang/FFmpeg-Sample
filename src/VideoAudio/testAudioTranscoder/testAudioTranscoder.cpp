@@ -257,8 +257,8 @@ int ffmpeg_audio_decode(const char * inFile, const char * outFile,
 
 
 int main() {
-	char *inFile = "E:\\mp4\\20150716.wmv";
-	char *outFile = "E:\\mp4\\20150716.wav";
+	char *inFile = "E:\\mp4\\c.mp3";
+	char *outFile = "E:\\mp4\\c.wav";
 	fprintf(stderr, "res:%d/n",
 		ffmpeg_audio_decode(inFile, outFile, 1, 16, 16000));
 	return 0;

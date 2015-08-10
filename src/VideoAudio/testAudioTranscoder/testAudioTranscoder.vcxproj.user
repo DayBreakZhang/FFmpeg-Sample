@@ -4,4 +4,8 @@
     <LocalDebuggerWorkingDirectory>E:\DayBreakZcs\FFmpeg-Sample\src\VideoAudio\Release</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerWorkingDirectory>E:\DayBreakZcs\FFmpeg-Sample\bin\Debug</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
