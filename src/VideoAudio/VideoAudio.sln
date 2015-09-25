@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testAudioTranscoder", "test
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioTranscoder", "AudioTranscoder\AudioTranscoder.vcxproj", "{AED2B93C-D6DD-4AB0-8792-7A086B35966A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testTranscodertobmp", "testTranscodertobmp\testTranscodertobmp.vcxproj", "{04329D6A-9234-488C-87B5-973204B043BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -49,6 +51,10 @@ Global
 		{AED2B93C-D6DD-4AB0-8792-7A086B35966A}.Debug|Win32.Build.0 = Debug|Win32
 		{AED2B93C-D6DD-4AB0-8792-7A086B35966A}.Release|Win32.ActiveCfg = Release|Win32
 		{AED2B93C-D6DD-4AB0-8792-7A086B35966A}.Release|Win32.Build.0 = Release|Win32
+		{04329D6A-9234-488C-87B5-973204B043BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04329D6A-9234-488C-87B5-973204B043BC}.Debug|Win32.Build.0 = Debug|Win32
+		{04329D6A-9234-488C-87B5-973204B043BC}.Release|Win32.ActiveCfg = Release|Win32
+		{04329D6A-9234-488C-87B5-973204B043BC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
