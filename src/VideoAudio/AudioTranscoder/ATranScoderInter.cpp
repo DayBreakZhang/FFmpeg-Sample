@@ -193,9 +193,9 @@ int ffmpeg_audio_decode(const char * inFile, const char * outFile,
 
 		double duration = (double) formatContext->duration / 1000.0 / 1000.0;
 
-		fprintf(stderr, "duration=%f/n", duration);
+		fprintf(stderr, "duration=%f\n", duration);
 		int total_sample = (int) duration * channel_num * sample_rate;
-		fprintf(stderr, "total_sample=%d/n", total_sample);
+		fprintf(stderr, "total_sample=%d\n", total_sample);
 
 		int count = 0;
 		fseek(fout,44, SEEK_SET);
@@ -233,7 +233,7 @@ int ffmpeg_audio_decode(const char * inFile, const char * outFile,
 			}
 			av_free_packet(&packet);
 		}
-		fprintf(stderr, "count=%d/n", count);
+		fprintf(stderr, "count=%d\n", count);
 
 		unsigned char header[44];
 		WavHeader h;
